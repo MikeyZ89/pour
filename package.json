@@ -4,7 +4,7 @@
     "version": "5.0.9",
     "scripts": {
         "start": "node_modules/.bin/gulp watch",
-        "deploy": "gh-pages -d build"
+        "deploy": "npm run start && gh-pages -d build"
     },
     "description": "Pour Wine and Taproom Website",
     "homepage": "https://mikeyz89.github.io/pour",
